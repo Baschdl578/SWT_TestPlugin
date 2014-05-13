@@ -117,6 +117,14 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>swt1.ub2.a5</groupId>
+                <artifactId>9999996</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <scope>system</scope>
+                <optional>false</optional>
+                <systemPath>${project.basedir}/lib/9999996-0.0.1-SNAPSHOT.jar</systemPath>
+            </dependency>
+            <dependency>
                 <groupId>org.kohsuke.metainf-services</groupId>
                 <artifactId>metainf-services</artifactId>
                 <version>1.5</version>
@@ -135,6 +143,14 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <dependency>
+            <groupId>swt1.ub2.a5</groupId>
+            <artifactId>9999996</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <optional>false</optional>
+            <systemPath>${project.basedir}/lib/9999996-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
         <dependency>
             <groupId>org.kohsuke.metainf-services</groupId>
             <artifactId>metainf-services</artifactId>
